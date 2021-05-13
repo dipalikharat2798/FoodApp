@@ -29,10 +29,10 @@ public class SplashScreenActivity extends AppCompatActivity {
                 } finally {
                     Intent i = new Intent(SplashScreenActivity.this, MainActivity.class);
                     startActivity(i);
+                    finish();
                 }
             }
 
         };thread.start();
-
     }
 }

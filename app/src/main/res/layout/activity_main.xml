@@ -50,16 +50,19 @@
             android:background="@drawable/btn_gradient"
             android:text="Login"
             android:textColor="#fff"
+            android:textStyle="bold"
             android:layout_marginBottom="20dp"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            />
 
         <Button
-            android:id="@+id/SignUp"
+            android:id="@+id/Register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_gradient"
             android:hapticFeedbackEnabled="false"
-            android:text="SignUp"
+            android:text="REGISTER"
+            android:textStyle="bold"
             android:textColor="#fff"
             android:layout_marginBottom="20dp"
             android:textSize="20sp" />
